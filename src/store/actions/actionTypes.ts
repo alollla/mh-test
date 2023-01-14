@@ -1,0 +1,7 @@
+export const LOGIN_USER = 'LOGIN_USER';
+export const LOGIN_USER_SUCCESS = 'LOGIN_USER_SUCCESS';
+export const LOGIN_USER_ERROR = 'LOGIN_USER_ERROR';
+
+export const GET_POSTS = 'GET_POSTS';
+export const GOT_POSTS_SUCCESS = 'GOT_POSTS_SUCCESS';
+export const GOT_POSTS_ERROR = 'GOT_POSTS_ERROR';

@@ -1,0 +1,1 @@
+export {default as getPostsAction} from './getPostsAction';
