@@ -49,16 +49,16 @@ function App() {
                             key: "posts",
                             onClick: () => handleNavigate('/'),
                         },
-                        {
-                            label: "Authors",
-                            key: "authors",
-                            onClick: () => handleNavigate('/authors'),
-                        },
-                        {
-                            label: "Tags",
-                            key: "tags",
-                            onClick: () => handleNavigate('/tags'),
-                        },
+                        // {
+                        //     label: "Authors",
+                        //     key: "authors",
+                        //     onClick: () => handleNavigate('/authors'),
+                        // },
+                        // {
+                        //     label: "Tags",
+                        //     key: "tags",
+                        //     onClick: () => handleNavigate('/tags'),
+                        // },
                     ]}
                     selectedKeys={getSelectedMenuItems()}
                     mode="horizontal"
