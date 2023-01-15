@@ -34,6 +34,10 @@ instance.interceptors.response.use(
                 try {
                     const rs = await instance.post("/auth/token-refresh", {
                         refresh_token: TokenService.getLocalRefreshToken(),
+                    }, {
+                        headers: {
+                            'Content-Type': 'multipart/form-data'
+                        }
                     });
 
                     const { access_token, refresh_token } = rs.data;
